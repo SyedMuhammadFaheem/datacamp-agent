@@ -1,0 +1,28 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+
+# Local data: progress database and any personal course notes
+*.db
+*.db-*
+courses/
+THEORY_SUMMARY.md
+
+# Secrets
+.env
+.env.*
+
+# Local assistant/tooling state
+.claude/
+.playwright-mcp/
+.remember/
+CLAUDE.md
+.DS_Store
+PROJECT_STATE.md
