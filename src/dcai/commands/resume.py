@@ -10,8 +10,8 @@ import logging
 
 from dcai.commands import start
 from dcai.config import Config
-from dcai.db.connection import connect
 from dcai.db import repo
+from dcai.db.connection import connect
 
 log = logging.getLogger(__name__)
 
